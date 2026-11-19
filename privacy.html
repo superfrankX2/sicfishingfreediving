@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy e cookie · Sic Fishing &amp; Freediving</title>
+<meta name="description" content="Informativa privacy e cookie di sicfishingfreediving.it: quali dati vengono trattati quando contatti Simone e perché. Il sito non usa cookie di profilazione.">
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://sicfishingfreediving.it/privacy">
+<meta name="theme-color" content="#06202e">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+/* Font ospitati sul sito (niente richieste a Google Fonts, GDPR) */
+@font-face{font-family:"Barlow Condensed";font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/barlow-condensed-latin-ext-500-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Barlow Condensed";font-style:normal;font-weight:500;font-display:swap;src:url(/fonts/barlow-condensed-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Barlow Condensed";font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/barlow-condensed-latin-ext-600-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Barlow Condensed";font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/barlow-condensed-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Barlow Condensed";font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/barlow-condensed-latin-ext-700-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Barlow Condensed";font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/barlow-condensed-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:200 800;font-display:swap;src:url(/fonts/manrope-latin-ext-wght-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:200 800;font-display:swap;src:url(/fonts/manrope-latin-wght-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+:root{--ink:#0a1c26;--sea-1:#0f5d78;--sea-3:#06202e;--abyss:#030f17;--flag:#d9364a;--muted:#5b6b73;--surface:#f4efe6}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Manrope",system-ui,sans-serif;color:var(--ink);background:var(--surface);line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--sea-1);text-underline-offset:3px}
+.top{background:var(--sea-3);color:#fff;padding:22px 0 70px}
+.wrap{width:min(780px,100% - 40px);margin-inline:auto}
+.brand{display:inline-flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-family:"Barlow Condensed";font-weight:700;font-size:1.2rem;letter-spacing:.06em;text-transform:uppercase}
+.brand img{width:30px;height:30px}
+h1{font-family:"Barlow Condensed";font-weight:700;text-transform:uppercase;font-size:clamp(2.6rem,7vw,4rem);line-height:1;margin-top:56px}
+.top p{color:rgba(255,255,255,.75);margin-top:14px;max-width:620px}
+main{padding:56px 0 80px}
+h2{font-family:"Barlow Condensed";font-weight:700;text-transform:uppercase;font-size:1.7rem;line-height:1.1;margin:44px 0 12px}
+p,li{color:#2b3b43;font-size:1.02rem}
+p+p{margin-top:12px}
+ul{padding-left:20px;margin:10px 0 14px}
+li{margin-bottom:6px}
+.box{background:#fff;border:1px solid #e3dccf;border-radius:14px;padding:18px 20px;margin:12px 0}
+.upd{margin-top:48px;font-size:.88rem;color:var(--muted)}
+.back{display:inline-block;margin-top:36px;font-weight:700}
+footer{background:var(--abyss);color:rgba(255,255,255,.55);font-size:.85rem;padding:26px 0}
+footer a{color:rgba(255,255,255,.75)}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="/"><img src="favicon.svg" alt="">Sic Fishing &amp; Freediving</a>
+    <h1>Privacy e cookie</h1>
+    <p>Informativa ai sensi degli artt. 13 e 14 del Regolamento UE 2016/679 (GDPR). In breve: questo sito non usa cookie di profilazione né statistiche e non ti traccia. I tuoi dati vengono trattati solo se decidi tu di scrivere o telefonare.</p>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    <h2>1. Titolare del trattamento</h2>
+    <div class="box">
+      <p><strong>Simone</strong>, istruttore di apnea Katabasis, titolare di sicfishingfreediving.it<br>
+      Telefono / WhatsApp: <a href="tel:+393394411434">+39 339 441 1434</a><br>
+      Instagram: <a href="https://www.instagram.com/sic_fishing_freediving/" target="_blank" rel="noopener">@sic_fishing_freediving</a></p>
+    </div>
+    <p>Per domande sui tuoi dati o per esercitare i tuoi diritti puoi usare i contatti qui sopra.</p>
+
+    <h2>2. Quali dati e perché</h2>
+    <p><strong>a) Dati di navigazione.</strong> Il sito è ospitato su GitHub Pages (GitHub, Inc.). Per mostrarti le pagine e proteggere il servizio, i server registrano in automatico dati tecnici come indirizzo IP, data e ora della visita e pagina richiesta. Non vengono usati per identificarti né per profilarti.</p>
+    <ul>
+      <li><em>Base giuridica:</em> legittimo interesse al funzionamento e alla sicurezza del sito (art. 6, par. 1, lett. f GDPR).</li>
+      <li><em>Conservazione:</em> per il tempo stabilito dal fornitore per finalità di sicurezza.</li>
+    </ul>
+    <p><strong>b) Dati che invii tu.</strong> I pulsanti del sito aprono WhatsApp con un messaggio già scritto, oppure la chiamata. Se decidi di inviare il messaggio o di telefonare, vengono trattati i dati che comunichi: nome, numero di telefono e contenuto del messaggio (per esempio livello, preferenza tra piscina e mare, date).</p>
+    <ul>
+      <li><em>Finalità:</em> risponderti, darti informazioni e organizzare corsi, lezioni o uscite.</li>
+      <li><em>Base giuridica:</em> misure precontrattuali e contrattuali richieste da te (art. 6, par. 1, lett. b GDPR).</li>
+      <li><em>Conservazione:</em> per il tempo necessario a gestire la richiesta e il corso. Poi i dati vengono cancellati, salvo quelli che la legge impone di conservare.</li>
+    </ul>
+    <p>Il sito non ha moduli e non salva nulla. I messaggi viaggiano su WhatsApp, servizio di Meta Platforms Ireland Ltd., che li tratta come titolare autonomo secondo la propria <a href="https://www.whatsapp.com/legal/privacy-policy-eea" target="_blank" rel="noopener">informativa</a>. Il conferimento è facoltativo, ma senza dati di contatto non è possibile risponderti.</p>
+
+    <h2>3. Chi può ricevere i dati</h2>
+    <p>I dati non vengono venduti né ceduti e non sono usati per pubblicità. Possono trattarli solo i fornitori tecnici: <strong>GitHub, Inc.</strong> per l'hosting del sito e <strong>Meta / WhatsApp</strong> per i messaggi. GitHub può trattare dati negli Stati Uniti. Il trasferimento avviene sulla base delle clausole contrattuali standard approvate dalla Commissione europea.</p>
+
+    <h2>4. Cookie</h2>
+    <p>Questo sito <strong>non usa cookie</strong>: né di profilazione, né di marketing, né di statistica. Non integra servizi di terze parti come Google Analytics, pixel dei social, mappe o video incorporati. Anche i caratteri tipografici sono ospitati direttamente sul sito, quindi aprendo la pagina non viene contattato Google Fonts.</p>
+    <p>Per questo non c'è un banner dei cookie: le Linee guida del Garante Privacy del 10 giugno 2021 lo richiedono solo se si usano cookie o strumenti diversi da quelli tecnici. I link verso WhatsApp e Instagram portano a servizi che hanno le loro regole sulla privacy e sui cookie.</p>
+
+    <h2>5. I tuoi diritti</h2>
+    <p>In qualsiasi momento puoi chiedere di accedere ai tuoi dati (art. 15), correggerli (art. 16), cancellarli (art. 17), limitarne il trattamento (art. 18), riceverli in formato leggibile (art. 20) o opporti al trattamento basato sul legittimo interesse (art. 21). Se ritieni che il trattamento non sia corretto puoi presentare reclamo al <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">Garante per la protezione dei dati personali</a>.</p>
+
+    <h2>6. Modifiche</h2>
+    <p>Se cambia il modo in cui vengono trattati i dati, per esempio con l'aggiunta di statistiche o nuovi servizi, questa pagina verrà aggiornata e, dove serve, verrà chiesto il tuo consenso prima di attivarli.</p>
+    <p class="upd">Ultimo aggiornamento: 19 novembre 2026</p>
+    <a class="back" href="/">← Torna al sito</a>
+  </div>
+</main>
+<footer><div class="wrap">© 2026 Sic Fishing &amp; Freediving · <a href="/">sicfishingfreediving.it</a></div></footer>
+</body>
+</html>
